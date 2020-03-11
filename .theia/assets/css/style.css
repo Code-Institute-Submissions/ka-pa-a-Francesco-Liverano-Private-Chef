@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:100,200,300,400,500,600,700');
+
+
+/*------------------------navbar*/
+.navbar-brand {
+    font-family: "Lobster two", sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+}
+.navbar-nav a{
+    font-family: "Lobster two", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+/*--------------------section*/
+
+section{
+    background-image: url(../images/cooking.jpg);
+    background-size: cover;
+}
+
+.heading h1{
+    font-family: "Lobster two", sans-serif;
+    font-weight: 100;
+    margin-right: 0;
+    padding: 50px;
+    font-size: 100px;
+    color: #fffff0;
+    background-color:  rgba(0, 0, 0, 0.5);
+
+}
