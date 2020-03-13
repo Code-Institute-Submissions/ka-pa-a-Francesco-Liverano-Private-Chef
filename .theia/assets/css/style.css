@@ -23,17 +23,16 @@ section{
     background-size: cover;
     
 }
-
 .heading h1{
     font-family: 'Dancing Script', cursive;
      font-family: 'Amatic SC', cursive;
     font-weight: 100;
-    margin-bottom: 100px;
-    margin-top: 100px;
-    margin-left: 50px;
+    margin: 100px 90px 100px 75px;
+    padding: 15px;
     font-size: 75px;
+    background-color: rgba(0, 0, 0, 0.5);
     color: #fffff0;
-    position: center;
+    border: 3px solid #fffff0;
     
 }
 .reason-heading {
@@ -45,6 +44,17 @@ section{
     font-size: 50px;
     color: #fffff0;
     
+}
+.heading a i{
+    font-family: 'Dancing Script', cursive;
+     font-family: 'Amatic SC', cursive;
+    font-weight: 100;
+    margin: 100px 90px 100px 75px;
+    padding: 15px;
+    font-size: 75px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fffff0;
+    border: 3px solid #fffff0;
 }
 p {
     font-family: 'Dancing Script', cursive;
@@ -72,7 +82,7 @@ h4 {
 .links{
     background:transparent;
 }
-.image-dish{
+.image-dish,.image-dish2,.image-dish3{
     background: url(../images/dish1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -91,7 +101,7 @@ h4 {
     margin-top: 100px;
 }
 .image-dish3{
-    background: url(../images/starter.jpg);
+    background: url(../images/dish3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
