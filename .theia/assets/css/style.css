@@ -46,7 +46,16 @@ section{
     color: #fffff0;
     
 }
-p{
+p {
+    font-family: 'Dancing Script', cursive;
+     font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+    margin-left: 25px;
+    font-size: 50px;
+    color: #F5F5DC;
+    
+}
+h4 {
     font-family: 'Dancing Script', cursive;
      font-family: 'Amatic SC', cursive;
     font-weight: 400;
@@ -62,4 +71,37 @@ p{
 /*----------------footer*/
 .links{
     background:transparent;
+}
+.image-dish{
+    background: url(../images/dish1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    max-width: 450px;
+    margin-top: 100px;
+}
+.image-dish2{
+    background: url(../images/dessert.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    max-width: 450px;
+    margin-top: 100px;
+}
+.image-dish3{
+    background: url(../images/starter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    max-width: 450px;
+    margin-top: 100px;
+}
+.description-dish{
+    padding:15px;
+    margin-top: 100px;
+    margin-left: 5px;
+    background: rgba(0, 0, 0, 0.5);
 }
