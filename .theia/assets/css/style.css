@@ -23,8 +23,10 @@
 /*--------------------section*/
 
 section{
-    background-image: url(../images/cooking.jpg);
-    }
+    background-image: url(../images/kitchen2.jpg);
+    background-repeat: scroll;
+    background-size: cover;
+}
 .heading h1{
     font-family: 'Dancing Script', cursive;
      font-family: 'Amatic SC', cursive;
@@ -236,4 +238,15 @@ img.align-center{
 .form-control{
     background: rgba(247, 247, 247, 0.575);
     border: 1px solid rgba(0, 0, 0, 0.5);
+}
+#footer-details{
+    background-color:#343a40;
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+}
+#footer-details p{
+    color: #fffff0;
+    font-size: 20px;
+    text-align: center;
+    
 }
