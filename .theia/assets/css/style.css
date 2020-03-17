@@ -16,6 +16,10 @@
     font-weight: 100;
     font-size: 20px;
 }
+.navbar-toggler [type=button] {
+-webkit-overflow-scrolling: dkdkp;
+}
+
 /*--------------------section*/
 
 section{
@@ -184,4 +188,52 @@ h4 {
     margin-top: 100px;
     margin-left: 5px;
     background: rgba(0, 0, 0, 0.5);
+}
+/*----------------------contact.html*/
+.rounded-circle{
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 500px;
+    border:10px solid rgba(0, 0, 0, 0.5);
+}
+.container-fluid{
+    background: url(../images/kitchen2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+
+}
+.contact-heading{
+    margin-top: 10px;
+}
+h3,h5 {
+     font-family: 'Dancing Script', cursive;
+     font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+    margin-left: 25px;
+    font-size: 50px;
+    color:red;
+
+}
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+button[type="submit"] {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color:rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    
+}
+img.align-center{
+    display: block;
+    margin: 50px auto;   
+}
+.form-control{
+    background: rgba(247, 247, 247, 0.575);
+    border: 1px solid rgba(0, 0, 0, 0.5);
 }
