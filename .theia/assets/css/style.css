@@ -1,18 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script:100,200,300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Sen:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script:100,200,300,400');
 
 
 /*------------------------navbar*/
-.background-home{
-    background:  rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px ;
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
-    border: 2px solid #fffff0;
-
-}
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
      font-family: 'Amatic SC', cursive;
@@ -25,12 +14,18 @@
     font-weight: 100;
     font-size: 20px;
 }
-.navbar-toggler [type=button] {
--webkit-overflow-scrolling: dkdkp;
+
+
+/*--------------------index.html*/
+.background-home{
+    background:  rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px ;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid #fffff0;
+
 }
-
-/*--------------------section*/
-
 section{
     background-image: url(../images/kitchen2.jpg);
     background-repeat: scroll;
@@ -80,12 +75,11 @@ section{
     
 }
     
-}
 .heading-column{
     margin-bottom:15px;  
 }
 
-/*----------------Dishes*/
+/*----------------Dishes.html*/
 .container{
     margin-left: 100px;
 }
@@ -236,6 +230,7 @@ img.align-center{
     background: rgba(247, 247, 247, 0.575);
     border: 1px solid rgba(0, 0, 0, 0.5);
 }
+/*---------------footer*/
 #footer-details{
     background-color:#343a40;
     margin: 0px;
