@@ -4,6 +4,15 @@
 
 
 /*------------------------navbar*/
+.background-home{
+    background:  rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px ;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid #fffff0;
+
+}
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
      font-family: 'Amatic SC', cursive;
@@ -26,6 +35,7 @@ section{
     background-image: url(../images/kitchen2.jpg);
     background-repeat: scroll;
     background-size: cover;
+    margin: 0px;
 }
 .heading h1{
     font-family: 'Dancing Script', cursive;
@@ -39,43 +49,36 @@ section{
     border: 3px solid #fffff0;
     
 }
-.reason-heading {
-    font-family: 'Dancing Script', cursive;
-     font-family: 'Amatic SC', cursive;
-    font-weight: 100;
-    margin-top: 100px;
-    margin-left: 50px;
-    font-size: 50px;
-    color: #fffff0;
-    
-}
 .heading a i{
     font-family: 'Dancing Script', cursive;
      font-family: 'Amatic SC', cursive;
     font-weight: 100;
-    margin: 100px 90px 100px 75px;
+    margin: 0px auto;
     padding: 15px;
     font-size: 75px;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fffff0;
     border: 3px solid #fffff0;
 }
-p {
+ h4{
+     font-family: 'Dancing Script', cursive;
+     font-family: 'Amatic SC', cursive;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color:#fffff0;
+ }
+ p {
     font-family: 'Dancing Script', cursive;
      font-family: 'Amatic SC', cursive;
-    font-weight: 400;
-    margin-left: 25px;
+    font-weight: 100;
+    text-align: center;
+    margin:0px auto;
     font-size: 50px;
-    color: #F5F5DC;
+    color:#fffff0;
     
 }
-h4 {
-    font-family: 'Dancing Script', cursive;
-     font-family: 'Amatic SC', cursive;
-    font-weight: 400;
-    margin-left: 25px;
-    font-size: 50px;
-    color: #F5F5DC;
     
 }
 .heading-column{
@@ -192,13 +195,7 @@ h4 {
     background: rgba(0, 0, 0, 0.5);
 }
 /*----------------------contact.html*/
-.rounded-circle{
-    width: 350px;
-    height: 350px;
-    margin-top: 50px;
-    margin-left: 500px;
-    border:10px solid rgba(0, 0, 0, 0.5);
-}
+
 .container-fluid{
     background: url(../images/kitchen2.jpg);
     background-size: cover;
