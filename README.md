@@ -1,35 +1,50 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+**Francesco Liverano - Private Chef**
+I build this project for a Chef Francesco, who wants start a career as Private Chef.
+His idea it's simple and clear , Francesco wants to do what he does best directly in his customers kitchen.
+ 
 
-Welcome ka-pa-ra,
+**UX**
+This website is been build for the users that are looking for hiring a Private Chef and creating different atmosphere for their dinner/party at home with friends.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+**Features**
+This website has 3 pages ,which are home, dishes, and contact us. 
+Home(index.html), is a homepage which explains what this is website is for.
+Dishes(dishes.html), is a page with images and description of Chef Francesco's dishes.
+Contact us (contact.html), is a page which contain a form where users can contact Francesco. 
 
-## Gitpod Reminders
+Also I created a style.css file , used for creating style for the website.
+
+**Features Left to Implement**
+All the pages contains a **navbar** which works perfectly on normal screen size but not in small screens.
+**Technologies Used**
+Languange used are HTML and Css.
+Frameworks used is Bootstrap.
+
+**JQuery**
+In this project I did not use JQuery.
+
+**Contact form**
+The contact form works very welll , and if submit with a empty form it will show you a error messagge about a required field.
+It works also in different size screens.
+
+**Deployment**
+The hosting platform it's Github.
+First I created 3 new file ,which are *index.html*, *dishes.html* and *contact.html*, after that I created inside  **.theia** folder a new folder called **assets** which contains 2 more folder which are *images* and *css*.
+Into *css* folder , I created a file named *style.css* which i been using for styling the website. 
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+python3 -m http.server
 
-A blue button should appear to click: *Expose*,
+A blue button should appear to click: Expose,
 
-Another blue button should appear to click: *Open Browser*.
+Another blue button should appear to click: Open Browser.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+**Credits**
+I used Google Fonts for import the style of the text.
+Background image took from Pixabay.com .
+The text for section in the homepage   was copied/rivisited  from the website Cicciocooks.com .
+Images for dishes.html file took it from Francesco's Instagram page also the description was copied from it.
+I create a logo with logomark.com .
 
-A blue button should appear to click: *Expose*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+I took inspiration for this project from Cicciocooks.com (he's my friend and I wanted to do something nice for him)
