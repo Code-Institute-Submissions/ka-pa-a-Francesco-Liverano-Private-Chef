@@ -17,12 +17,21 @@
 
 
 /*--------------------index.html*/
+.heading-page{
+    margin-left: 50px;
+}
+.heading-page p {
+    color: black;
+    font-size: 50px;
+    margin-bottom: 200px;
+}
 
  h1{
     font-family: 'Dancing Script', cursive;
      font-family: 'Amatic SC', cursive;
     font-weight: 100;
-    margin: 100px 90px 100px 75px;
+    margin-top: 100px;
+    margin-left: 150px;
     padding: 15px;
     font-size: 60px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -69,112 +78,6 @@ h2{
     text-align: center; 
 }
 
-/*----------------Dishes.html*/
-.image-dish{
-    background: url(../images/dish1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    max-width: 450px;
-    margin-top: 100px;
-}
-.image-dish2{
-    background: url(../images/dessert.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    max-width: 450px;
-    margin-top: 100px;
-}
-.image-dish3{
-    background: url(../images/dish3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    max-width: 450px;
-    margin-top: 100px;
-}
-.image-dish4{
-    background: url(../images/dish4.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    max-width: 450px;
-    margin-top: 100px;
-}
-.image-dish5{
-    background: url(../images/dish5.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    max-width: 450px;
-    margin-top: 100px;
-}
-.image-dish6{
-    background: url(../images/dish6.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    max-width: 450px;
-    margin-top: 100px;
-}
-.image-dish7{
-    background: url(../images/dish7.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    max-width: 450px;
-    margin-top: 100px;
-}
-.image-dish8{
-    background: url(../images/dish8.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    max-width: 450px;
-    margin-top: 100px;
-}
-.image-dish9{
-    background: url(../images/dish9.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    max-width: 450px;
-    margin-top: 100px;
-}
-.image-dish10{
-    background: url(../images/dish10.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    max-width: 450px;
-    margin-top: 100px;
-}
-.image-dish11{
-    background: url(../images/dish11.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    max-width: 450px;
-    margin-top: 100px;
-}
-.description-dish{
-    padding:15px;
-    margin-top: 100px;
-    margin-left: 5px;
-    background: rgba(0, 0, 0, 0.5);
-}
 /*----------------------contact.html*/
 
 .container-fluid{
@@ -190,6 +93,9 @@ h2{
 }
 .three-menu{
     margin: 0px auto;
+}
+.dish-menu{
+    margin-top: 15px;
 }
 img{
     margin-bottom: 15px;
