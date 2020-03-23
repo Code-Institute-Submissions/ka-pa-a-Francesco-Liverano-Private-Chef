@@ -17,43 +17,31 @@
 
 
 /*--------------------index.html*/
-.background-home{
-    background:  rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px ;
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
-    border: 2px solid #fffff0;
 
-}
-section{
-    background-image: url(../images/kitchen2.jpg);
-    background-repeat: scroll;
-    background-size: cover;
-    margin: 0px;
-}
-.heading h1{
+ h1{
     font-family: 'Dancing Script', cursive;
      font-family: 'Amatic SC', cursive;
     font-weight: 100;
     margin: 100px 90px 100px 75px;
     padding: 15px;
-    font-size: 75px;
+    font-size: 60px;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fffff0;
     border: 3px solid #fffff0;
+    text-align: center;
     
 }
-.heading a i{
-    font-family: 'Dancing Script', cursive;
+h2{
+   font-family: 'Dancing Script', cursive;
      font-family: 'Amatic SC', cursive;
     font-weight: 100;
-    margin: 0px auto;
+    margin: 100px 90px 100px 75px;
     padding: 15px;
-    font-size: 75px;
+    font-size: 60px;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fffff0;
     border: 3px solid #fffff0;
+    text-align: center;
 }
  h4{
      font-family: 'Dancing Script', cursive;
@@ -61,7 +49,7 @@ section{
     font-weight: 500;
     text-align: center;
     margin-bottom: 10px;
-    font-size: 50px;
+    font-size: 35px;
     color:#fffff0;
  }
  p {
@@ -69,20 +57,19 @@ section{
      font-family: 'Amatic SC', cursive;
     font-weight: 100;
     text-align: center;
-    margin:0px auto;
-    font-size: 50px;
+    margin-bottom: 15px;
+    font-size: 35px;
     color:#fffff0;
     
 }
     
-.heading-column{
-    margin-bottom:15px;  
+.heading-column {
+    margin-top: 15px;
+    margin-bottom:15px; 
+    text-align: center; 
 }
 
 /*----------------Dishes.html*/
-.container{
-    margin-left: 100px;
-}
 .image-dish{
     background: url(../images/dish1.jpg);
     background-position: center;
@@ -194,7 +181,32 @@ section{
     background: url(../images/kitchen2.jpg);
     background-size: cover;
     background-position: 50% 50%;
-
+}
+/*----------three-menu*/
+.container{
+    background-color:#343a40;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.three-menu{
+    margin: 0px auto;
+}
+img{
+    margin-bottom: 15px;
+}
+figcaption{
+    font-family: 'Dancing Script', cursive;
+     font-family: 'Amatic SC', cursive;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: left;
+    color:#fffff0;
+    margin-bottom: 15px;
+    
+}
+.button{
+  text-align: center;
+  margin-bottom: 15px;
 }
 .contact-heading{
     margin-top: 10px;
@@ -241,4 +253,8 @@ img.align-center{
     font-size: 20px;
     text-align: center;
     
+}
+/*--------media*/
+@media screen {
+    (max-width: 768px);
 }
