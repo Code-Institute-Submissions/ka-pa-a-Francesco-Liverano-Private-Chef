@@ -22,6 +22,7 @@
 }
 .heading-page p {
     color: black;
+    font-weight: 700;
     font-size: 50px;
     margin-bottom: 200px;
 }
@@ -29,12 +30,12 @@
  h1{
     font-family: 'Dancing Script', cursive;
      font-family: 'Amatic SC', cursive;
-    font-weight: 100;
+    font-weight: 700;
     margin-top: 100px;
     margin-left: 150px;
     padding: 15px;
     font-size: 60px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.95);
     color: #fffff0;
     border: 3px solid #fffff0;
     text-align: center;
@@ -43,11 +44,11 @@
 h2{
    font-family: 'Dancing Script', cursive;
      font-family: 'Amatic SC', cursive;
-    font-weight: 100;
+    font-weight: 700;
     margin: 100px 90px 100px 75px;
     padding: 15px;
     font-size: 60px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.95);
     color: #fffff0;
     border: 3px solid #fffff0;
     text-align: center;
@@ -64,7 +65,7 @@ h2{
  p {
     font-family: 'Dancing Script', cursive;
      font-family: 'Amatic SC', cursive;
-    font-weight: 100;
+    font-weight: 700;
     text-align: center;
     margin-bottom: 15px;
     font-size: 35px;
@@ -81,13 +82,14 @@ h2{
 /*----------------------contact.html*/
 
 .container-fluid{
-    background: url(../images/kitchen2.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
+    background: url(../images/bg1.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
 }
 /*----------three-menu*/
 .container{
-    background-color:#343a40;
+    background-color:rgba(0, 0, 0, 0.95);
     margin-top: 15px;
     margin-left: 50px;
 }
@@ -117,15 +119,17 @@ figcaption{
 .contact-heading{
     margin-top: 10px;
 }
-h3,h5 {
+h5 {
      font-family: 'Dancing Script', cursive;
      font-family: 'Amatic SC', cursive;
-    font-weight: 400;
+    font-weight: 700;
     margin-left: 25px;
     font-size: 50px;
-    color:red;
+    background-color: rgba(0, 0, 0, 0.95);
+    color: #fffff0;
+    border: 3px solid #fffff0;
 
-}
+    }
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
@@ -136,7 +140,7 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color:rgba(0, 0, 0, 0.95);
     border: 2px solid black;
     
 }
@@ -145,8 +149,8 @@ img.align-center{
     margin: 50px auto;   
 }
 .form-control{
-    background: rgba(247, 247, 247, 0.575);
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.95);
+    border: 1px solid #fffff0;
 }
 /*---------------footer*/
 #footer-details{
