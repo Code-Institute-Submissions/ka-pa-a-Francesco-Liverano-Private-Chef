@@ -1,67 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script:100,200,300,400');
 
 
-/*------------------------navbar*/
-.navbar-brand {
-    font-family: 'Dancing Script', cursive;
-     font-family: 'Amatic SC', cursive;
-    font-weight: 200;
-    font-size: 25px;
-}
-.navbar-nav a{
-    font-family: 'Dancing Script', cursive;
-     font-family: 'Amatic SC', cursive;
-    font-weight: 100;
-    font-size: 20px;
-}
+/*------------------------navigation*/
 
+nav{
 
-/*--------------------index.html*/
-.heading-page{
-    margin-left: 50px;
+    text-align: center;
+    background-color: #fffff0;
 }
-.heading-page p {
-    color: black;
+li{
+    display: inline;
+    
+}
+a {
+     font-family: 'Dancing Script', cursive;
+     font-family: 'Amatic SC', cursive;
+     color: black;
     font-weight: 700;
+    font-size: 35px;
+    padding: 10px;
+}
+a:hover{
+    color:rgba(0, 0, 0, 0.8);
+    text-decoration: none;
     font-size: 50px;
-    margin-bottom: 200px;
+}
+a.current{
+    font-size: 50px;
+}
+
+/*--------------------headings*/
+.heading-page{
+    margin: 20px auto 20px auto;
 }
 
  h1{
     font-family: 'Dancing Script', cursive;
      font-family: 'Amatic SC', cursive;
     font-weight: 700;
-    margin-top: 100px;
-    margin-left: 150px;
     padding: 15px;
     font-size: 60px;
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: rgba(0, 0, 0, 0.8);
     color: #fffff0;
     border: 3px solid #fffff0;
     text-align: center;
     
 }
-h2{
-   font-family: 'Dancing Script', cursive;
-     font-family: 'Amatic SC', cursive;
-    font-weight: 700;
-    margin: 100px 90px 100px 75px;
-    padding: 15px;
-    font-size: 60px;
-    background-color: rgba(0, 0, 0, 0.95);
-    color: #fffff0;
-    border: 3px solid #fffff0;
-    text-align: center;
-}
- h4{
-     font-family: 'Dancing Script', cursive;
-     font-family: 'Amatic SC', cursive;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 10px;
-    font-size: 35px;
-    color:#fffff0;
- }
+
  p {
     font-family: 'Dancing Script', cursive;
      font-family: 'Amatic SC', cursive;
@@ -74,25 +59,25 @@ h2{
 }
     
 .heading-column {
-    margin-top: 15px;
-    margin-bottom:15px; 
+    margin: 10px auto 10px auto;
     text-align: center; 
 }
 
-/*----------------------contact.html*/
+/*----------------------contaniners*/
 
-.container-fluid{
+.container-fluid{ 
+    max-width: 940px;
+    min-height: 720px;
+    margin: 10px auto 10px auto;
     background: url(../images/bg1.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-
+    background-attachment: cover;
+    background-position: 50% 50%;
+}
+.container{
+    background-color:rgba(0, 0, 0, 0.8);
+    margin: 20px auto 20px auto;
 }
 /*----------three-menu*/
-.container{
-    background-color:rgba(0, 0, 0, 0.95);
-    margin-top: 15px;
-    margin-left: 50px;
-}
 .three-menu{
     margin: 0px auto;
 }
@@ -125,11 +110,12 @@ h5 {
     font-weight: 700;
     margin-left: 25px;
     font-size: 50px;
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: rgba(0, 0, 0, 0.8);
     color: #fffff0;
     border: 3px solid #fffff0;
 
     }
+/*--------form*/
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
@@ -140,7 +126,7 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color:rgba(0, 0, 0, 0.95);
+    background-color:rgba(0, 0, 0, 0.8);
     border: 2px solid black;
     
 }
@@ -149,13 +135,14 @@ img.align-center{
     margin: 50px auto;   
 }
 .form-control{
-    background: rgba(0, 0, 0, 0.95);
+    background: rgba(0, 0, 0, 0.8);
     border: 1px solid #fffff0;
 }
 /*---------------footer*/
 #footer-details{
-    background-color:#343a40;
-    margin: 0px;
+    background-color:black;
+    max-width: 940px;
+    margin: 0px auto 0px auto;
     padding: 5px 0px 5px 0px;
 }
 #footer-details p{
