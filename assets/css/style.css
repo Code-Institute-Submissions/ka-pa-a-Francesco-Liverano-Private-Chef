@@ -4,21 +4,19 @@
 /*------------------------navigation*/
 
 nav{
-
-    text-align: center;
-    background-color: #fffff0;
+    margin: 10px auto 10px auto;
+    text-align: left;
 }
 li{
     display: inline;
     
 }
 a {
-     font-family: 'Dancing Script', cursive;
-     font-family: 'Amatic SC', cursive;
+     font-family: 'Permanent Marker', cursive;
      color: black;
     font-weight: 700;
-    font-size: 35px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 5px;
 }
 a:hover{
     color:rgba(0, 0, 0, 0.8);
@@ -26,7 +24,7 @@ a:hover{
     font-size: 50px;
 }
 a.current{
-    font-size: 50px;
+    text-decoration-line:underline; 
 }
 
 /*--------------------headings*/
@@ -81,16 +79,49 @@ body{
     background-color: blanchedalmond;
 }
 .container-fluid{ 
-    min-height: 540px;
     margin: 10px auto 10px auto;
     background: url(../images/kitchen3.jpg) no-repeat center center ;
     
 }
 .container{
+    max-width: auto;
+    min-height: 360px;
+    background-color:transparent;
+    margin: 5px auto 20px auto;
+
+}
+.biography{
+    max-width: 1200px;
+    min-height: 360px;
     background-color:rgba(0, 0, 0, 0.8);
-    margin: 20px auto 20px auto;
+    margin: 5px auto 20px auto;
+}
+.biography p{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+    margin: 20px auto 25px auto;
+    padding: 2px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+ }  
+img.rounded-circle{
+    margin-left:0px;
 }
 /*----------three-menu*/
+.heading-menu{
+ text-align: center;
+border: 4px dotted black;
+}
+.heading-menu p{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+    margin: 10px auto 30px auto;
+    padding: 2px;
+    font-size: 45px;
+    color: black;
+
+}
 .three-menu{
     margin: 0px auto;
 }
@@ -99,20 +130,16 @@ body{
 }
 img{
     margin-bottom: 15px;
+    border-radius: 35% 35%;
+    border: 2px solid black;
 }
 figcaption{
-    font-family: 'Dancing Script', cursive;
-     font-family: 'Amatic SC', cursive;
-    font-weight: 100;
-    font-size: 25px;
-    text-align: left;
-    color:#fffff0;
-    margin-bottom: 15px;
-    
-}
-.button{
-  text-align: center;
-  margin-bottom: 15px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+    margin: 20px auto 25px auto;
+    padding: 2px;
+    font-size: 20px;
+    color: black;
 }
 .contact-heading{
     margin-top: 10px;
@@ -134,14 +161,23 @@ h5 {
     margin: 0 auto;
     max-width: 70%;
 }
-button[type="submit"] {
-    position: relative;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fafafa;
-    background-color:rgba(0, 0, 0, 0.8);
-    border: 2px solid black;
+.bg-button{
+    background-color:blanchedalmond;
+    border: 4px double black;
+}
+.btn p{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+    font-size: 15px;
+    color:black;
+    text-align: center;
+}
+.btn:hover{
+    background-color: black;
     
+}
+.btn p:hover{
+    color:white;
 }
 img.align-center{
     display: block;
