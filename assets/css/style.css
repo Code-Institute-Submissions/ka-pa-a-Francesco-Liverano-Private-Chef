@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script:100,200,300,400');
-
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker:100,200,300,400,500,600,700');
 
 /*------------------------navigation*/
 
@@ -30,33 +30,46 @@ a.current{
 }
 
 /*--------------------headings*/
-.heading-page{
-    margin: 20px auto 20px auto;
-}
 
- h1{
-    font-family: 'Dancing Script', cursive;
-     font-family: 'Amatic SC', cursive;
-    font-weight: 700;
-    padding: 15px;
-    font-size: 60px;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fffff0;
-    border: 3px solid #fffff0;
+
+ .heading h1{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+    margin: 200px auto 25px auto;
+    padding: 2px;
+    font-size: 45px;
+    color: black;
     text-align: center;
     
 }
-
- p {
-    font-family: 'Dancing Script', cursive;
-     font-family: 'Amatic SC', cursive;
-    font-weight: 700;
+.heading h2{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+    margin: 10px auto 25px auto;
+    padding: 2px;
+    font-size: 40px;
+    color: black;
     text-align: center;
-    margin-bottom: 15px;
-    font-size: 35px;
-    color:#fffff0;
-    
 }
+ .heading-column h1{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+    margin: 20px auto 25px auto;
+    padding: 2px;
+    font-size: 45px;
+    color: black;
+    text-align: center;
+ } 
+ .heading-column p{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+    margin: 20px auto 25px auto;
+    padding: 2px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+ }  
+
     
 .heading-column {
     margin: 10px auto 10px auto;
@@ -64,14 +77,14 @@ a.current{
 }
 
 /*----------------------contaniners*/
-
+body{
+    background-color: blanchedalmond;
+}
 .container-fluid{ 
-    max-width: 940px;
-    min-height: 720px;
+    min-height: 540px;
     margin: 10px auto 10px auto;
-    background: url(../images/bg1.png);
-    background-attachment: cover;
-    background-position: 50% 50%;
+    background: url(../images/kitchen3.jpg) no-repeat center center ;
+    
 }
 .container{
     background-color:rgba(0, 0, 0, 0.8);
