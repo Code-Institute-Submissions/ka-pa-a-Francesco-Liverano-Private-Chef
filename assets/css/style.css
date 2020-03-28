@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker:100,200,300,400,500,600,700');
-
+@import url('https://fonts.googleapis.com/css?family=Caveat:100,200,300,400,500,600,700');
 /*------------------------navigation*/
 
 nav{
@@ -12,28 +12,33 @@ li{
     
 }
 a {
-     font-family: 'Permanent Marker', cursive;
+     font-family: 'Caveat', cursive;
      color: black;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 30px;
     padding: 5px;
 }
 a:hover{
-    color:rgba(0, 0, 0, 0.8);
+    color:orange;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 20px;
+    
 }
 a.current{
     text-decoration-line:underline; 
 }
 
 /*--------------------headings*/
-
+ .heading{
+     background: url(../images/kitchen3.jpg) no-repeat center center ;
+     width: 940px;
+     height: 540px;
+ }
 
  .heading h1{
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Caveat', cursive;
     font-weight: 500;
-    margin: 200px auto 25px auto;
+    margin: 20px auto 25px auto;
     padding: 2px;
     font-size: 45px;
     color: black;
@@ -41,7 +46,7 @@ a.current{
     
 }
 .heading h2{
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Caveat', cursive;
     font-weight: 500;
     margin: 10px auto 25px auto;
     padding: 2px;
@@ -49,62 +54,97 @@ a.current{
     color: black;
     text-align: center;
 }
- .heading-column h1{
-    font-family: 'Permanent Marker', cursive;
-    font-weight: 500;
-    margin: 20px auto 25px auto;
-    padding: 2px;
+.heading-column{
+    margin:10px auto 10px auto;
+}
+.heading-column h1{
+    font-family: 'Caveat', cursive;
     font-size: 45px;
     color: black;
     text-align: center;
- } 
- .heading-column p{
-    font-family: 'Permanent Marker', cursive;
-    font-weight: 500;
-    margin: 20px auto 25px auto;
-    padding: 2px;
+}
+.heading-column p {
+    font-family: 'Caveat', cursive;
     font-size: 25px;
     color: black;
     text-align: center;
- }  
-
-    
-.heading-column {
-    margin: 10px auto 10px auto;
-    text-align: center; 
+}
+.product img{
+    width: 350px;
+    height: 250px;
+}  
+.guest p {
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+.chef-image img{
+    width: 360px;
+    height: 360px; 
+}  
+.chef-image p{
+    text-align: center;
+}
+.menu h1{
+    font-family: 'Caveat', cursive;
+    font-size: 55px;
+    color: black;
+    text-align: left;
+}
+.menu p{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    color: black;
+    text-align: left;
+}
+.menu-details h3{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+}
+.menu-details p{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+.quote{
+    margin: 30px auto 30px auto;
+}
+.quote h1{
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    color: black;
+    text-align: center;
 }
 
 /*----------------------contaniners*/
-body{
-    background-color: blanchedalmond;
-}
 .container-fluid{ 
-    margin: 10px auto 10px auto;
-    background: url(../images/kitchen3.jpg) no-repeat center center ;
-    
+    margin: 10px auto 10px auto;    
 }
 .container{
-    max-width: auto;
-    min-height: 360px;
-    background-color:transparent;
-    margin: 5px auto 20px auto;
+    margin: 50px auto 20px auto;
 
 }
-.biography{
-    max-width: 1200px;
-    min-height: 360px;
-    background-color:rgba(0, 0, 0, 0.8);
-    margin: 5px auto 20px auto;
+.bio h1,h3 {
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
+    color: black;
+    text-align: center;
 }
-.biography p{
-    font-family: 'Permanent Marker', cursive;
-    font-weight: 500;
-    margin: 20px auto 25px auto;
-    padding: 2px;
+.bio p {
+    font-family: 'Caveat', cursive;
     font-size: 25px;
     color: black;
-    text-align: right;
- }  
+    text-align: center;
+}
+.bg-service{
+     background: url(../images/glasses.jpg) no-repeat center center ;
+     width: 720px;
+     height: 540px;
+ }
 img.rounded-circle{
     margin-left:0px;
 }
@@ -127,11 +167,6 @@ border: 4px dotted black;
 }
 .dish-menu{
     margin-top: 15px;
-}
-img{
-    margin-bottom: 15px;
-    border-radius: 35% 35%;
-    border: 2px solid black;
 }
 figcaption{
     font-family: 'Permanent Marker', cursive;
@@ -188,18 +223,25 @@ img.align-center{
     border: 1px solid #fffff0;
 }
 /*---------------footer*/
-#footer-details{
-    background-color:black;
-    max-width: 940px;
-    margin: 0px auto 0px auto;
-    padding: 5px 0px 5px 0px;
+.bg-footer{
+    margin: 20px auto;
 }
-#footer-details p{
-    color: #fffff0;
+.footer-details p{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+}
+.footer-social a{
+    color: black;   
+}
+.footer-social a:hover{
+    color:orange;
+    text-decoration: none;
     font-size: 20px;
-    text-align: center;
     
 }
+
 /*--------media*/
 @media screen {
     (max-width: 768px);
