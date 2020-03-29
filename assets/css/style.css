@@ -191,40 +191,22 @@ h5 {
     background-color: rgba(0, 0, 0, 0.8);
     color: #fffff0;
     border: 3px solid #fffff0;
-
     }
+
 /*--------form*/
-.center-form {
+.center-form{
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
 }
-.bg-button{
-    background-color:blanchedalmond;
-    border: 4px double black;
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: orange;
 }
-.btn p{
-    font-family: 'Permanent Marker', cursive;
-    font-weight: 500;
-    font-size: 15px;
-    color:black;
-    text-align: center;
-}
-.btn:hover{
-    background-color: black;
-    
-}
-.btn p:hover{
-    color:white;
-}
-img.align-center{
-    display: block;
-    margin: 50px auto;   
-}
-.form-control{
-    background: rgba(0, 0, 0, 0.8);
-    border: 1px solid #fffff0;
-}
+
 /*---------------footer*/
 .bg-footer{
     margin: 20px auto;
@@ -264,4 +246,27 @@ img.align-center{
     font-size: 20px;
     color: black;
     text-align: left;
+ }
+ /*-------product.html*/
+ .bg-gallery{
+      background: url(../images/cooking.jpg) no-repeat center center ;
+     background-size: cover;
+     width: 940px;
+     height: 540px;
+ }
+  .gallery-details p {
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    color: black;
+    text-align: left;
+ }
+  .bg-gallery h1{
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+ }
+ .gallery-details img:hover{
+     width: 540px;
+     height: 360px;
  }
