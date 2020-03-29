@@ -31,6 +31,7 @@ a.current{
 /*--------------------headings*/
  .heading{
      background: url(../images/kitchen3.jpg) no-repeat center center ;
+     background-size: cover;
      width: 940px;
      height: 540px;
  }
@@ -128,12 +129,16 @@ a.current{
     margin: 50px auto 20px auto;
 
 }
+.bio{
+    margin: 50px auto 50px auto;
+}
 .bio h1,h3 {
     font-family: 'Caveat', cursive;
     font-size: 45px;
     color: black;
     text-align: center;
 }
+
 .bio p {
     font-family: 'Caveat', cursive;
     font-size: 25px;
@@ -142,6 +147,7 @@ a.current{
 }
 .bg-service{
      background: url(../images/glasses.jpg) no-repeat center center ;
+     background-size: cover;
      width: 720px;
      height: 540px;
  }
@@ -175,9 +181,6 @@ figcaption{
     padding: 2px;
     font-size: 20px;
     color: black;
-}
-.contact-heading{
-    margin-top: 10px;
 }
 h5 {
      font-family: 'Dancing Script', cursive;
@@ -242,7 +245,23 @@ img.align-center{
     
 }
 
-/*--------media*/
-@media screen {
-    (max-width: 768px);
-}
+/*--------contact.html*/
+.heading-contact{
+     background: url(../images/kitchen2.jpg) no-repeat center center ;
+     background-size: cover;
+     width: 720px;
+     height: 540px;
+
+ }
+ .conditions-details h1{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+ }
+ .conditions-details {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+ }
