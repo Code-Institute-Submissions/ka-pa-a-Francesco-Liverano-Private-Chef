@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script:100,200,300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Caveat:100,200,300,400,500,600,700');
 /*------------------------navigation*/
-
 nav{
     margin: 10px auto 10px auto;
     text-align: left;
@@ -28,7 +25,7 @@ a.current{
     text-decoration-line:underline; 
 }
 
-/*--------------------headings*/
+/*--------------------index.html*/
  .heading{
      background: url(../images/kitchen3.jpg) no-repeat center center ;
      background-size: cover;
@@ -87,30 +84,6 @@ a.current{
 .chef-image p{
     text-align: center;
 }
-.menu h1{
-    font-family: 'Caveat', cursive;
-    font-size: 55px;
-    color: black;
-    text-align: left;
-}
-.menu p{
-    font-family: 'Caveat', cursive;
-    font-size: 25px;
-    color: black;
-    text-align: left;
-}
-.menu-details h3{
-    font-family: 'Caveat', cursive;
-    font-size: 30px;
-    color: black;
-    text-align: left;
-}
-.menu-details p{
-    font-family: 'Caveat', cursive;
-    font-size: 20px;
-    color: black;
-    text-align: left;
-}
 .quote{
     margin: 30px auto 30px auto;
 }
@@ -119,15 +92,6 @@ a.current{
     font-size: 50px;
     color: black;
     text-align: center;
-}
-
-/*----------------------contaniners*/
-.container-fluid{ 
-    margin: 10px auto 10px auto;    
-}
-.container{
-    margin: 50px auto 20px auto;
-
 }
 .bio{
     margin: 50px auto 50px auto;
@@ -151,47 +115,15 @@ a.current{
      width: 720px;
      height: 540px;
  }
-img.rounded-circle{
-    margin-left:0px;
+
+/*----------------------contaniners*/
+.container-fluid{ 
+    margin: 10px auto 10px auto;    
 }
-/*----------three-menu*/
-.heading-menu{
- text-align: center;
-border: 4px dotted black;
-}
-.heading-menu p{
-    font-family: 'Permanent Marker', cursive;
-    font-weight: 500;
-    margin: 10px auto 30px auto;
-    padding: 2px;
-    font-size: 45px;
-    color: black;
+.container{
+    margin: 50px auto 20px auto;
 
 }
-.three-menu{
-    margin: 0px auto;
-}
-.dish-menu{
-    margin-top: 15px;
-}
-figcaption{
-    font-family: 'Permanent Marker', cursive;
-    font-weight: 500;
-    margin: 20px auto 25px auto;
-    padding: 2px;
-    font-size: 20px;
-    color: black;
-}
-h5 {
-     font-family: 'Dancing Script', cursive;
-     font-family: 'Amatic SC', cursive;
-    font-weight: 700;
-    margin-left: 25px;
-    font-size: 50px;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fffff0;
-    border: 3px solid #fffff0;
-    }
 
 /*--------form*/
 .center-form{
@@ -247,26 +179,53 @@ button[type="submit"] {
     color: black;
     text-align: left;
  }
- /*-------product.html*/
- .bg-gallery{
-      background: url(../images/cooking.jpg) no-repeat center center ;
+ /*-------menu*/
+.bg-menu1{
+     background: url(../images/table-set.jpg) no-repeat center center ;
      background-size: cover;
-     width: 940px;
+     width: 720px;
      height: 540px;
  }
-  .gallery-details p {
+ .bg-menu2{
+     background: url(../images/canape.jpg) no-repeat center center ;
+     background-size: cover;
+     width: 720px;
+     height: 540px;
+ }
+ .bg-menu3{
+     background: url(../images/cocktails.jpg) no-repeat center center ;
+     background-size: cover;
+     width: 720px;
+     height: 540px;
+ }
+ .menu h1{
+    font-family: 'Caveat', cursive;
+    font-size: 55px;
+    color: black;
+    text-align: left;
+}
+.menu p{
     font-family: 'Caveat', cursive;
     font-size: 25px;
     color: black;
     text-align: left;
- }
-  .bg-gallery h1{
+}
+.menu-details h3,h5{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+}
+.menu-details h2{
     font-family: 'Caveat', cursive;
     font-size: 40px;
     color: black;
-    text-align: center;
- }
- .gallery-details img:hover{
-     width: 540px;
-     height: 360px;
- }
+    text-align: left;
+}
+
+.menu-details p{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
